@@ -1,0 +1,59 @@
+{
+  "name": "dbalance",
+  "version": "1.0.0",
+  "description": "Monitor an assortment of crypto addresses using 1 address as the login credentials",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuckbergeron/dbalance.git"
+  },
+  "author": {
+    "name": "Charles Bergeron",
+    "email": "chuck.bergeron@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/chuckbergeron/dbalance/issues"
+  },
+  "homepage": "https://github.com/chuckbergeron/dbalance#readme",
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": "^9.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "dependencies": {
+    "@feathersjs/configuration": "^1.0.2",
+    "@feathersjs/errors": "^3.2.1",
+    "@feathersjs/express": "^1.1.2",
+    "@feathersjs/feathers": "^3.0.5",
+    "@feathersjs/socketio": "^3.0.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "feathers-sequelize": "^3.0.0",
+    "helmet": "^3.9.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.0",
+    "sequelize-cli": "^3.2.0",
+    "serve-favicon": "^2.4.5",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "mocha": "^4.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
