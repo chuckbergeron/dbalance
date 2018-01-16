@@ -5,7 +5,7 @@ const dialect = 'postgres';
 module.exports = {
   [env]: {
     database: 'dbalance_development',
-    dialect,
+    dialect: dialect,
     url: app.get(dialect),
     migrationStorageTableName: '_migrations'
   }

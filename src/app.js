@@ -11,31 +11,14 @@ const express = require('@feathersjs/express');
 const socketio = require('@feathersjs/socketio');
 
 
-/// db
-
-const Sequelize = require('sequelize');
-const sequelize = new Sequelize('dbalance_development', 'chuckbergeron', '', {
-    host: 'localhost',
-    dialect: 'postgres'
-  }
-);
-
-const Message = sequelize.define('message', {
-  text: {
-    type: Sequelize.STRING,
-    allowNull: false
-  }
-}, {
-  freezeTableName: true
-});
-const service = require('feathers-sequelize');
-
-/// db
-
 const middleware = require('./middleware');
 const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
+
+
+/// db
+const sequelize = require('./sequelize');
 
 const app = express(feathers());
 
@@ -54,6 +37,8 @@ app.use('/', express.static(app.get('public')));
 // Set up Plugins and providers
 app.configure(express.rest());
 app.configure(socketio());
+
+app.configure(sequelize);
 
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
