@@ -1,0 +1,157 @@
+// https://otcgo.cn/api/v1/balances/AZ44joqohAQwP4 ... /
+
+{
+    "balances": [
+        {
+            "assetType": "AntShare",
+            "name": "NEO",
+            "assetId": "c56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b",
+            "marketSign": "neo",
+            "frozen": "0",
+            "valid": "2",
+            "total": "2"
+        },
+        {
+            "assetType": "AntCoin",
+            "enable": "0",
+            "name": "GAS",
+            "assetId": "602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7",
+            "marketSign": "gas",
+            "disable": "0.00280600",
+            "frozen": "0",
+            "valid": "0.0173536",
+            "total": "0.0173536"
+        },
+        {
+            "assetType": "Token",
+            "frozen": "0",
+            "name": "开拍学园币（KAC）",
+            "assetId": "07de511668e6ecc90973d713451c831d625eca229242d34debf16afa12efc1c1",
+            "marketSign": "kac",
+            "total": "0",
+            "valid": "0",
+            "divisible": true
+        },
+        {
+            "assetType": "Token",
+            "frozen": "0",
+            "name": "申一币",
+            "assetId": "a52e3e99b6c2dd2312a94c635c050b4c2bc2485fcb924eecb615852bd534a63f",
+            "marketSign": "syc",
+            "total": "0",
+            "valid": "0",
+            "divisible": true
+        },
+        {
+            "assetType": "Share",
+            "frozen": "0",
+            "name": "申一股份",
+            "assetId": "30e9636bc249f288139651d60f67c110c3ca4c3dd30ddfa3cbcec7bb13f14fd4",
+            "marketSign": "sys",
+            "total": "0",
+            "valid": "0",
+            "divisible": false
+        },
+        {
+            "assetType": "Token",
+            "frozen": "0",
+            "name": "量子积分",
+            "assetId": "0ab0032ade19975183c4ac90854f1f3c3fc535199831e7d8f018dabb2f35081f",
+            "marketSign": "lzj",
+            "total": "0",
+            "valid": "0",
+            "divisible": false
+        },
+        {
+            "assetType": "Share",
+            "frozen": "0",
+            "name": "量子股份",
+            "assetId": "1b504c5fb070aaca3d57c42b5297d811fe6f5a0c5d4cd4496261417cf99013a5",
+            "marketSign": "lzg",
+            "total": "0",
+            "valid": "0",
+            "divisible": false
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "RPX (鸿播)",
+            "assetType": "Token",
+            "assetId": "ecc6b20d3ccac1ee9ef109af5a7cdb85706b1df9",
+            "marketSign": "RPX (鸿播)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "APH (Aphelion)",
+            "assetType": "Token",
+            "assetId": "a0777c3ce2b169d4a23bcba4565e3225a0122d95",
+            "marketSign": "APH (Aphelion)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "QLC (Qlink)",
+            "assetType": "Token",
+            "assetId": "0d821bd7b6d53f5c2b40e217c6defc8bbe896cf5",
+            "marketSign": "QLC (Qlink)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "BCS (BlockchainStore)",
+            "assetType": "Token",
+            "assetId": "546c5872a992b2754ef327154f4c119baabff65f",
+            "marketSign": "BCS (BlockchainStore)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "ACAT (Alphacat)",
+            "assetType": "Token",
+            "assetId": "7f86d61ff377f1b12e589a5907152b57e2ad9a7a",
+            "marketSign": "ACAT (Alphacat)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "TNC (Trinity)",
+            "assetType": "Token",
+            "assetId": "08e8c4400f1af2c20c28e0018f29535eb85d15b6",
+            "marketSign": "TNC (Trinity)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "DBC (深脑链)",
+            "assetType": "Token",
+            "assetId": "b951ecbbc5fe37a9c280a76cb0ce0014827294cf",
+            "marketSign": "DBC (深脑链)",
+            "total": "0",
+            "divisible": true
+        },
+        {
+            "frozen": "0",
+            "valid": "0",
+            "name": "RHT (HashPuppies)",
+            "assetType": "Token",
+            "assetId": "2328008e6f6c7bd157a342e789389eb034d9cbc4",
+            "marketSign": "RHT (HashPuppies)",
+            "total": "0",
+            "divisible": true
+        }
+    ],
+    "address": "AZ44joqohAQwP4rbz9UfHW83h5u2MbjcC7"
+}

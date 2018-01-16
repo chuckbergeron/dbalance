@@ -1,0 +1,18 @@
+// https://blockexplorer.com/api/addr/1GPm6XTe9BnMvazRRVoZ ...
+
+{
+    "addrStr": "1GPm6XTe9BnMvazRRVoZ ...",
+    "balance": 0.02758595,
+    "balanceSat": 2758595,
+    "totalReceived": 0.02758595,
+    "totalReceivedSat": 2758595,
+    "totalSent": 0,
+    "totalSentSat": 0,
+    "unconfirmedBalance": 0,
+    "unconfirmedBalanceSat": 0,
+    "unconfirmedTxApperances": 0,
+    "txApperances": 1,
+    "transactions": [
+        "6ea7253bd0b2ca6979d0540a04cc6b403328d7b91 ..."
+    ]
+}

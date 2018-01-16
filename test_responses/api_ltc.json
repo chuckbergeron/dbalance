@@ -1,0 +1,11 @@
+// https://chain.so/api/v2/get_address_balance/LTC/LXFWDH2F45nhJZ ...
+
+{
+    "status": "success",
+    "data": {
+        "network": "LTC",
+        "address": "LXFWDH2F45nhJ ...",
+        "confirmed_balance": "0.74977076",
+        "unconfirmed_balance": "0.00000000"
+    }
+}
